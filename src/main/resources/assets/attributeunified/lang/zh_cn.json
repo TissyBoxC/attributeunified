@@ -1,0 +1,9 @@
+{
+  "attribute.name.attributeunified.attack_damage": "攻击力",
+  "attribute.name.attributeunified.magic_attack": "魔法攻击",
+  "attribute.name.attributeunified.critical_chance": "暴击率",
+  "attribute.name.attributeunified.critical_damage": "暴击伤害",
+
+  "attributeunified.configuration.title": "属性统一模组配置",
+  "attributeunified.configuration.attributes": "属性重定向规则"
+}

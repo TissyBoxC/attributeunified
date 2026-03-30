@@ -1,13 +1,9 @@
 {
-  "itemGroup.attributeunified": "Example Mod Tab",
-  "block.attributeunified.example_block": "Example Block",
-  "item.attributeunified.example_item": "Example Item",
+  "attribute.name.attributeunified.attack_damage": "Attack Damage",
+  "attribute.name.attributeunified.magic_attack": "Magic Attack",
+  "attribute.name.attributeunified.critical_chance": "Critical Chance",
+  "attribute.name.attributeunified.critical_damage": "Critical Damage",
 
-  "attributeunified.configuration.title": "attributeunified Configs",
-  "attributeunified.configuration.section.attributeunified.common.toml": "attributeunified Configs",
-  "attributeunified.configuration.section.attributeunified.common.toml.title": "attributeunified Configs",
-  "attributeunified.configuration.items": "Item List",
-  "attributeunified.configuration.logDirtBlock": "Log Dirt Block",
-  "attributeunified.configuration.magicNumberIntroduction": "Magic Number Text",
-  "attributeunified.configuration.magicNumber": "Magic Number"
+  "attributeunified.configuration.title": "Attribute Unification Configuration",
+  "attributeunified.configuration.attributes": "Attribute Redirect Rules"
 }
