@@ -16,11 +16,10 @@ import java.util.List;
 @EventBusSubscriber(modid = attributeunified.MODID)
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
-    private static final ModConfigSpec.ConfigValue<List<? extends String>> ATTRIBUTES = BUILDER.comment("A list of attributes to modify.")
-            .comment("From,To,value,scale")
-            .comment("From and To is attribute")
-            .comment("value is default value when From redirect to To,It's used to prevent From attribute applying effect.")
-            .comment("scale in the scale when From value redirect to To value")
+    private static final ModConfigSpec.ConfigValue<List<? extends String>> ATTRIBUTES = BUILDER.comment("修改的属性列表.")
+            .comment("从什么属性变更到什么属性")
+            .comment("eg:modid:attribute,modid:attribute2,0")
+            .comment("从将前面的属性统一为后面的属性并将前面的值变为0")
             .defineListAllowEmpty("attributes", List.of(
                     // 暴击几率统一
                     "l2damagetracker:crit_rate,apothic_attributes:crit_chance,0",
