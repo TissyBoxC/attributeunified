@@ -1,0 +1,13 @@
+{
+  "itemGroup.attributeunified": "Example Mod Tab",
+  "block.attributeunified.example_block": "Example Block",
+  "item.attributeunified.example_item": "Example Item",
+
+  "attributeunified.configuration.title": "attributeunified Configs",
+  "attributeunified.configuration.section.attributeunified.common.toml": "attributeunified Configs",
+  "attributeunified.configuration.section.attributeunified.common.toml.title": "attributeunified Configs",
+  "attributeunified.configuration.items": "Item List",
+  "attributeunified.configuration.logDirtBlock": "Log Dirt Block",
+  "attributeunified.configuration.magicNumberIntroduction": "Magic Number Text",
+  "attributeunified.configuration.magicNumber": "Magic Number"
+}
